@@ -1,0 +1,11 @@
+#index{
+	background-image: url(../images/login_bg.jpg);
+}
+.content {
+	position: absolute;
+	height: 300px; width: 400px; background-color: #475365; 
+	top: 50%; left: 50%; margin-top: -200px; margin-left: -200px; 
+	/*box-shadow: 0 0 2px 2px gray;*/ 
+	border-radius: 8px;
+	/*border:1px solid blueviolet;*/
+}

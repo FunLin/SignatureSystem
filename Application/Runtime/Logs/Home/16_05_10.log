@@ -1,0 +1,55 @@
+[ 2016-05-10T16:58:57+08:00 ] 127.0.0.1 /LFCMS/Home/Index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-05-10T16:59:29+08:00 ] 127.0.0.1 /LFCMS/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `user` WHERE `Username` = 'admin'  [ RunTime:0.0175s ]
+SQL: SELECT * FROM `user` WHERE `Username` = 'admin' AND `Password` = 'e10adc3949ba59abbe56e057f20f883e'  [ RunTime:0.0003s ]
+
+[ 2016-05-10T16:59:30+08:00 ] 127.0.0.1 /LFCMS/Home/Index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-05-10T16:59:39+08:00 ] 127.0.0.1 /LFCMS/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `Username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `Username` = 'admin' AND `Password` = '4297f44b13955235245b2497399d7a93'  [ RunTime:0.0002s ]
+
+[ 2016-05-10T17:01:06+08:00 ] 127.0.0.1 /LFCMS/Home/Index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
